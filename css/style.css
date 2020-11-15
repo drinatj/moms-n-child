@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    position: relative;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.juduljumbo{
+    font-family: 'Abril Fatface', cursive;
+    color:#110823;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.disni{
+    padding:10px;
+    text-align: center;
+    background-color: #9087A2;
+    color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 230px;
+}
+
+.menu-bar{
+    background-image: linear-gradient(-90deg, #B49EC4, #5A537A);
+}
+
+.nav-link{
+    font-size: 16px;
+    margin: 3px;
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-nav{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menu-bar .navbar-toggler{
+    padding-right: 20px;
+    outline: none !important;
+    border: none !important;
+}
+
+.navbar .fa{
+    color: white !important;
+    font-size: 26px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.image-container{
+    background: url('../images/bunga.jpg') center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 150vh;
+}
+
+.image-satu{
+    background: url('../images/bg_18.jpg') center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 90vh;
+}
+
+.text-h3{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+}
+
+.container-body{
+    padding: 20px;
+}
+
+.image-index1{
+    background: url('../images/bg_9.jpg') center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 85vh;
+}
+
+.image-index2{
+    background: url('../images/bg_8.jpg') center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 85vh;
+}
+
+.image-index3{
+    background: url('../images/bg_7.jpg') center no-repeat;
+    background-size: cover;
+    padding: 50px;
+    height: 85vh;
+}
+
+.judul-login{
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    color: black;
+    margin-bottom: 85px;
+}
+
+.text-right{
+    font-size: 15px;
+}
+
+.form-container{
+    
+    margin: auto;
+    justify-content: center;
+    padding: 50px;
+    
+}
+
+.navbar-brand{
+    font-family: 'Chelsea Market', cursive;
+    color: white !important;
+    margin-left: 30px;
+}
+
+
+.jumbotron {
+    background-image: url('../images/bg_5.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+
+    
+}
+
+.jumbotron img {
+    width: 200px;
+    border: 5px solid #333;
+}
+
+
+.card {
+    margin-bottom: 30px;
+}
+
+.jumbotron-satu {
+    background-image: url('../images/bg_3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;  
+}
+
+
+.jumbotron-dua {
+    background-image: url('../images/bg_4.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;  
+}
+
+.container-satu{
+    margin: 50px auto;
+    display: flex;
+}
+
+.sidebar-satu{
+    flex: 6;
+    order: 1;
+}
+
+.sidebar-dua{
+    flex: 4;
+    order: 2;
+}
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 40px;
+    background-color: #EDEAF2;
+}
+
+.grid-item{
+    
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+p.test{
+    width: 12rem;
+    font-size: 16px;
+    word-wrap: break-word;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.judul{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.card-body{
+    height: 230px;
+    width: 200px;
+}
+
+.card-body-dokter{
+    height: 170px;
+    padding: 20px;
+    position: relative;
+}
+
+ul.list{
+    
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.col{
+    margin-bottom: 43px;
+}
+
+.container-articel{
+    background-color: #D7CEE8;
+    padding: 20px;
+}
+
+.img-thumbnail{
+    border: none;
+}
+
+.container-foot{
+    background-color: #413A4D;
+    padding: 50px;
+    color: #EDEAF2;
+}
+
+/* ukuran tablet*/
+@media screen and (max-width: 758px) {
+    .navbar-nav{
+        width: 50%;
+    }
+}
+
+/* ukuran mobile*/
+@media screen and (max-width: 1000px) {
+    .nav-link:hover{
+        border-bottom: none !important;
+    }
+    
+}
+
+

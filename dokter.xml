@@ -1,0 +1,20 @@
+<konsultasi>
+    <dokter>
+        <nama>dr. Agnes Monikah</nama>
+        <item1>Konselor Laktasi</item1>
+        <item2>Rumah Sakit FMC</item2>
+        <item3>Jasa Konsultasi: Rp90.000</item3>
+    </dokter>
+    <dokter>
+        <nama>dr. Brian Domino, Sp.OG</nama>
+        <item1>Dokter Kandungan</item1>
+        <item2>Rumah Sakit FMC</item2>
+        <item3>Jasa Konsultasi: Rp100.000</item3>
+    </dokter>
+    <dokter>
+        <nama>dr. Kekeyi Putri, Sp.A</nama>
+        <item1>Dokter Anak</item1>
+        <item2>Rumah Sakit FMC</item2>
+        <item3>Jasa Konsultasi: Rp95.000</item3>
+    </dokter>
+</konsultasi>
